@@ -1,0 +1,1 @@
+<img src="./aruco_markers_grid_5x5_100.png" alt="aRuco" style="width: 100%; display: block; margin-left: 0;">

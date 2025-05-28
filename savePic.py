@@ -9,10 +9,7 @@ def main():
 
     # 打开默认摄像头（通常为0）
     cap = cv2.VideoCapture(0)
-    
-    # 设置摄像头分辨率为1080P
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
+
     # 检查摄像头是否成功打开
     if not cap.isOpened():
         print("无法打开摄像头")
